@@ -116,3 +116,38 @@
     background-size: 0 2px, 100% 2px;
   }
 }
+
+
+.slider-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider-image {
+  min-width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-text {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
